@@ -1,4 +1,4 @@
-<h3>Sign in With Google & SvelteKit!</h3>
+<h3>Sign in With Google & Svelte!</h3>
 
 <style>
     a{
