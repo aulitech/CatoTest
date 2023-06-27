@@ -6,6 +6,7 @@
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
+		"deploy": "npx gh-pages -d dist",
 		"test": "playwright test",
 		"test:unit": "vitest",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
@@ -26,6 +27,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"gh-pages": "^5.0.0",
 		"google-auth-library": "^8.8.0"
 	}
 }
